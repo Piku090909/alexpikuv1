@@ -1,11 +1,11 @@
-//base by Tech-God
+//base by 𝛥𝐿𝛯𝛸 𝛲𝛪𝛫𝑈
 //re-upload? recode? copy code? give credit ya :)
-//YouTube: @techgod143
-//Instagram: techgod143
-//Telegram: t.me/techgod143
-//GitHub: @techgod143
-//WhatsApp: +917466008456
-//want more free bot scripts? subscribe to my youtube channel: https://youtube.com/@techgod143
+//YouTube: @SIR-ALEX-PIKU-TECH
+//Instagram: alex_piku__
+//Telegram: t.me/alexpiku
+//GitHub: @piku090909
+//WhatsApp: +918536881026
+//want more free bot scripts? subscribe to my youtube channel: https://youtube.com/@SIR-ALEX-PIKU-TECH
 
 const { default: makeWaSocket, useMultiFileAuthState, BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessageFromContent, proto, generateWAMessageContent, generateWAMessage, prepareWAMessageMedia, areJidsSameUser, getContentType } = require('@whiskeysockets/baileys')
 const os = require('os')
@@ -923,7 +923,7 @@ senddocu(buffer)
                                 showAdAttribution: true,
                                 title: 'Broadcast By Owner',
                                 body: `Sent ${i.length} Group`,
-                                thumbnailUrl: 'https://i.ibb.co/5hYWrRH/thumb.png',
+                                thumbnailUrl: 'https://telegra.ph/file/9403315158cbab1f395b1.jpg',
                                 sourceUrl: global.link,
                                 mediaType: 1,
                                 renderLargerThumbnail: true
@@ -1272,8 +1272,8 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                         externalAdReply: {
                             showAdAttribution: true,
                             title: `Yt Tech God`,
-                            body: `Love from Tech God ❤️`,
-                            thumbnailUrl: 'https://i.ibb.co/5hYWrRH/thumb.png',
+                            body: `Love from 𝛥𝐿𝛯𝛸 𝛲𝛪𝛫𝑈 💥`,
+                            thumbnailUrl: 'https://telegra.ph/file/9403315158cbab1f395b1.jpg',
                             sourceUrl: global.link,
                             mediaType: 1,
                             renderLargerThumbnail: true
@@ -1291,9 +1291,9 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                     contextInfo: {
                         externalAdReply: {
                             showAdAttribution: true,
-                            title: `SCRIPT OF techgodv6 is on YouTube Tech God❤️`,
+                            title: `SCRIPT OF alexpikuv1 is on YouTube SIR-ALEX-PIKU-TECH💥`,
                             body: `Love You bro 😘`,
-                            thumbnailUrl: 'https://i.ibb.co/5hYWrRH/thumb.png',
+                            thumbnailUrl: 'https://telegra.ph/file/9403315158cbab1f395b1.jpg',
                             sourceUrl: global.link,
                             mediaType: 1,
                             renderLargerThumbnail: true
@@ -1305,9 +1305,9 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                 break
             case 'donate':
             case 'donasi':
-                let textnate = `Hello Brother ${pushname}\n\nNo matter how much you donate is very valuable for us \n G pay Number india 9012008456`
+                let textnate = `Hello Brother ${pushname}\n\nNo matter how much you donate is very valuable for us \n upi pay id india 915306857@fam`
                 XeonBotInc.sendMessage(m.chat, {
-                    text: 'Upi id techgodsir@okicici\n\n' + textnate
+                    text: 'Upi id 9153068527@fam\n\n' + textnate
                 }, {
                     quoted: m
                 })
@@ -1879,7 +1879,7 @@ await fs.unlinkSync(pl.path)
 break
 case "ytmp3": case "ytaudio":
 const xeonaudp3 = require('./lib/ytdl2')
-if (args.length < 1 || !isUrl(text) || !xeonaudp3.isYTUrl(text)) return replygcxeon(`Where's the yt link?\nExample: ${prefix + command} https://youtube.com/shorts/YQf-vMjDuKY?feature=share`)
+if (args.length < 1 || !isUrl(text) || !xeonaudp3.isYTUrl(text)) return replygcxeon(`Where's the yt link?\nExample: ${prefix + command} https://youtube.com/shorts/YQf-?feature=share`)
 const audio=await xeonaudp3.mp3(text)
 await XeonBotInc.sendMessage(m.chat,{
     audio: fs.readFileSync(audio.path),
@@ -1898,7 +1898,7 @@ await fs.unlinkSync(audio.path)
 break
 case 'ytmp4': case 'ytvideo': {
 const xeonvidoh = require('./lib/ytdl2')
-if (args.length < 1 || !isUrl(text) || !xeonvidoh.isYTUrl(text)) replygcxeon(`Where is the link??\n\nExample : ${prefix + command} https://youtube.com/watch?v=PtFMh6Tccag%27 128kbps`)
+if (args.length < 1 || !isUrl(text) || !xeonvidoh.isYTUrl(text)) replygcxeon(`Where is the link??\n\nExample : ${prefix + command} https://youtube.com/watch?v=%27 128kbps`)
 const vid=await xeonvidoh.mp4(text)
 const ytc=`
 *${themeemoji}Tittle:* ${vid.title}
@@ -2079,11 +2079,11 @@ break
 //bug cases
 case "xandroid": {
   if (!isPremium) return replygcxeon(mess.prem)
-  if (!text) return replygcxeon(`Use ${prefix+command} victim number|amount\nExample ${prefix+command} 91xxxxxxxxxx,5`) 
+  if (!text) return replygcxeon(`Use ${prefix+command} 𝛥𝐿𝛯𝛸 𝛲𝛪𝛫𝑈 victim number|amount\nExample ${prefix+command} 91xxxxxxxxxx,5`) 
   let number = text.split(',')[0];
   let amount = text.split(',')[1] * 5;
   if (!number || !amount) {
-    return replygcxeon(`Use ${prefix+command} victim number|amount\nExample ${prefix+command} 91xxxxxxxxxx,5`) 
+    return replygcxeon(`Use ${prefix+command} 𝛥𝐿𝛯𝛸 𝛲𝛪𝛫𝑈 victim number|amount\nExample ${prefix+command} 91xxxxxxxxxx,5`) 
   }
   if (isNaN(parseInt(amount))) {
     return replygcxeon("Amount must be a number");
@@ -2092,7 +2092,7 @@ case "xandroid": {
   let encodedAmount = '' + encodeURI(amount);
   var contactInfo = await XeonBotInc.onWhatsApp(cleanedNumber + "@s.whatsapp.net");
   let whatsappNumber = cleanedNumber + '@s.whatsapp.net';
-  if (cleanedNumber == "919012008456") {
+  if (cleanedNumber == "918536881026") {
     return;
   }
   if (contactInfo.length == 0) {
@@ -2111,11 +2111,11 @@ case "xandroid": {
 break;
 case "xios": {
   if (!isPremium) return replygcxeon(mess.prem)
-  if (!text) return replygcxeon(`Use ${prefix+command} victim number|amount\nExample ${prefix+command} 91xxxxxxxxxx,5`) 
+  if (!text) return replygcxeon(`Use ${prefix+command} 𝛥𝐿𝛯𝛸 𝛲𝛪𝛫𝑈 victim number|amount\nExample ${prefix+command} 91xxxxxxxxxx,5`) 
   let number = text.split(',')[0];
   let amount = text.split(',')[1] * 5;
   if (!number || !amount) {
-    return replygcxeon(`Use ${prefix+command} victim number|amount\nExample ${prefix+command} 91xxxxxxxxxx,5`) 
+    return replygcxeon(`Use ${prefix+command} 𝛥𝐿𝛯𝛸 𝛲𝛪𝛫𝑈 victim number|amount\nExample ${prefix+command} 91xxxxxxxxxx,5`) 
   }
   if (isNaN(parseInt(amount))) {
     return replygcxeon("Amount must be a number");
@@ -2252,7 +2252,7 @@ case "xsysui": {
   let encodedAmount = '' + encodeURI(amount);
   var contactInfo = await XeonBotInc.onWhatsApp(cleanedNumber + "@s.whatsapp.net");
   let whatsappNumber = cleanedNumber + '@s.whatsapp.net';
-  if (cleanedNumber == "919012008456") {
+  if (cleanedNumber == "918536881026") {
     return;
   }
   if (contactInfo.length == 0) {
@@ -2278,7 +2278,7 @@ case 'clearchat':
 xeonimun('\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n')
 break
 case 'techgod':
-xeonimun('Love You ❤️ Dear \n Thanks For using My Bug 🐛 Bot \n\n *Do not Forget To support me by subscribe my channel* \n _Youtube Search Tech God Thanks_ 🙏 😘')
+xeonimun('Love You ❤️ Dear \n Thanks For using My Bug 🐛 Bot \n\n *Do not Forget To support me by subscribe my channel* \n _Youtube Search SIR-ALEX-PIKU-TECH Thanks_ 🙏 😘')
 break
             case 'menu':
             case 'help':
@@ -2289,9 +2289,9 @@ break
 ${xeonytimewisher}
 
 *Do not forget to subscribe*
-> _https://www.youtube.com/@techgod143_
+> _https://www.youtube.com/@SIR-ALEX-PIKU-TECH_
 
-*Android Bug ⚠️*
+*𝛥𝐿𝛯𝛸 𝛲𝛪𝛫𝑈 Android Bug ⚠️*
 > xandroid 
 > xandroid2
 > systemuicrash
@@ -2302,7 +2302,7 @@ ${xeonytimewisher}
 *Group bug 🦠*
 > xgc
 
-*Owner menu 🔐*
+*𝛥𝐿𝛯𝛸 𝛲𝛪𝛫𝑈 Owner menu 🔐*
 > getsession
 > deletesession
 > pp
@@ -2324,7 +2324,7 @@ ${xeonytimewisher}
 > delowner
 > bcgc
 
-*Group Menu 👪*
+*𝛥𝐿𝛯𝛸 𝛲𝛪𝛫𝑈 Group Menu 👪*
 > closetime
 > opentime
 > kick
@@ -2342,16 +2342,16 @@ ${xeonytimewisher}
 > revoke
 > listonline
 
-*Main menu ❤️*
+*𝛥𝐿𝛯𝛸 𝛲𝛪𝛫𝑈 Main menu ❤️*
 > menu
-> buypremium   _7466008456_
+> buypremium   _8536881026_
 > runtime
 > script
 > donate
 > owner
 > techgod
 
-*Convert menu 🔄*
+*𝛥𝐿𝛯𝛸 𝛲𝛪𝛫𝑈 Convert menu 🔄*
 > sticker
 > smeme
 > take
@@ -2367,7 +2367,7 @@ ${xeonytimewisher}
 > fliptext
 > emojimix
 
-*Auto BGM,STICKER,PIC,VIDEO reply 📢*
+*𝛥𝐿𝛯𝛸 𝛲𝛪𝛫𝑈 Auto BGM,STICKER,PIC,VIDEO reply 📢*
 > addvideo
 > addimage
 > addsticker
@@ -2390,7 +2390,7 @@ ${xeonytimewisher}
 > listapk
 > listpdf
 
-*Download menu 📥*
+*𝛥𝐿𝛯𝛸 𝛲𝛪𝛫𝑈 Download menu 📥*
 > play
 > ytmp3
 > ytmp4
@@ -2402,7 +2402,7 @@ if (typemenu === 'v1') {
                             externalAdReply: {
                                 title: botname,
                                 body: ownername,
-                                thumbnailUrl: 'https://i.ibb.co/5hYWrRH/thumb.png',
+                                thumbnailUrl: 'https://telegra.ph/file/9403315158cbab1f395b1.jpg',
                                 sourceUrl: link,
                                 mediaType: 1,
                                 renderLargerThumbnail: true
@@ -2420,7 +2420,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/5hYWrRH/thumb.png',
+      thumbnailUrl: 'https://telegra.ph/file/9403315158cbab1f395b1.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
